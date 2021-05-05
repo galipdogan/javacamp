@@ -1,0 +1,37 @@
+package kodlamaIo;
+
+public class Student extends User {
+	int studentId;
+	String departman;
+	
+	public int getStudentId() {
+		return studentId;
+	}
+
+	public void setStudentId(int studentId) {
+		this.studentId = studentId;
+	}
+
+	public String getDepartman() {
+		return departman;
+	}
+
+	public void setDepartman(String departman) {
+		this.departman = departman;
+	}
+	
+	public Student() {
+		super();
+	}
+	
+	public Srudent(int userId, String firtName, String lastName, String eMail, String password,int studentId, String departman) {
+		this.userId=userId;
+		this.fisrtName=firtName;
+		this.lastName=lastName;
+		this.eMail=eMail;
+		this.password=password;
+		this.studentId=studentId;
+		this.departman=departman;
+		}
+
+}

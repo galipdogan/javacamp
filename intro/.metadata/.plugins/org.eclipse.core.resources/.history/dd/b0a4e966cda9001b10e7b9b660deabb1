@@ -1,0 +1,6 @@
+package kodlamaIo;
+
+public class Instructor extends User{
+	String departman;
+	String appellation;
+}

@@ -1,0 +1,9 @@
+package kodlamaIo;
+
+public class Student extends User {
+	private int studentId;
+	private String departman;
+	private String studentNumber;
+
+
+}

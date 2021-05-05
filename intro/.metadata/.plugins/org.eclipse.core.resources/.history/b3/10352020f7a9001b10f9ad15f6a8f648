@@ -1,0 +1,12 @@
+package kodlamaIo;
+
+public class UserManager {
+	public void add(User user) {
+		System.out.println("Kullanýcý eklendi " + user.getFisrtName());
+	}
+	
+	public void addMultiple(User[] users) {
+		System.out.println(users[0].getFisrtName());
+	}
+	
+}

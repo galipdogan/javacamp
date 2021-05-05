@@ -1,0 +1,15 @@
+package kodlamaIo;
+
+public class UserManager {
+	public void add(User user) {
+		System.out.println("Kullanýcý eklendi" + user.getFisrtName());
+	}
+	
+	public void add(Student user) {
+		System.out.println("Öðrenci eklendi" + user.getFisrtName());
+	}
+	
+	public void add(Instructor user) {
+		System.out.println("Eðitmen eklendi" + user.getFisrtName());
+	}
+}
